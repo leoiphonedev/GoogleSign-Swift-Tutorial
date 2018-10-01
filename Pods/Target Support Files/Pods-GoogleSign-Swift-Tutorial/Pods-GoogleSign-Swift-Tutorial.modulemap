@@ -1,0 +1,6 @@
+framework module Pods_GoogleSign_Swift_Tutorial {
+  umbrella header "Pods-GoogleSign-Swift-Tutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}

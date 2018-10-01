@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73C08EC17100C5ADD1C6E14D /* Pods_GoogleSign_Swift_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86C9A0A57A5FC4C480FC15C /* Pods_GoogleSign_Swift_Tutorial.framework */; };
 		DCC18F30216139B5002BA7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC18F2F216139B5002BA7FA /* AppDelegate.swift */; };
 		DCC18F32216139B5002BA7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC18F31216139B5002BA7FA /* ViewController.swift */; };
 		DCC18F35216139B5002BA7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC18F33216139B5002BA7FA /* Main.storyboard */; };
 		DCC18F37216139B5002BA7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC18F36216139B5002BA7FA /* Assets.xcassets */; };
 		DCC18F3A216139B5002BA7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC18F38216139B5002BA7FA /* LaunchScreen.storyboard */; };
+		DCC18F4221613C01002BA7FA /* credentials (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = DCC18F4121613C01002BA7FA /* credentials (2).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22C2DE52AD31977711B9B4C8 /* Pods-GoogleSign-Swift-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSign-Swift-Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		B86C9A0A57A5FC4C480FC15C /* Pods_GoogleSign_Swift_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSign_Swift_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC18F2C216139B5002BA7FA /* GoogleSign-Swift-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoogleSign-Swift-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC18F2F216139B5002BA7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC18F31216139B5002BA7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		DCC18F36216139B5002BA7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC18F39216139B5002BA7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC18F3B216139B5002BA7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC18F4121613C01002BA7FA /* credentials (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "credentials (2).plist"; sourceTree = "<group>"; };
+		E5E170D9E4C5549419CB3579 /* Pods-GoogleSign-Swift-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSign-Swift-Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C08EC17100C5ADD1C6E14D /* Pods_GoogleSign_Swift_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8105A8654BE5BA28992FC899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9A0A57A5FC4C480FC15C /* Pods_GoogleSign_Swift_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD502C7E0014607B69AECE94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E170D9E4C5549419CB3579 /* Pods-GoogleSign-Swift-Tutorial.debug.xcconfig */,
+				22C2DE52AD31977711B9B4C8 /* Pods-GoogleSign-Swift-Tutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DCC18F23216139B5002BA7FA = {
 			isa = PBXGroup;
 			children = (
 				DCC18F2E216139B5002BA7FA /* GoogleSign-Swift-Tutorial */,
 				DCC18F2D216139B5002BA7FA /* Products */,
+				CD502C7E0014607B69AECE94 /* Pods */,
+				8105A8654BE5BA28992FC899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 		DCC18F2E216139B5002BA7FA /* GoogleSign-Swift-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DCC18F4121613C01002BA7FA /* credentials (2).plist */,
 				DCC18F2F216139B5002BA7FA /* AppDelegate.swift */,
 				DCC18F31216139B5002BA7FA /* ViewController.swift */,
 				DCC18F33216139B5002BA7FA /* Main.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC18F3E216139B5002BA7FA /* Build configuration list for PBXNativeTarget "GoogleSign-Swift-Tutorial" */;
 			buildPhases = (
+				F28E7B4C043A7EB55A991331 /* [CP] Check Pods Manifest.lock */,
 				DCC18F28216139B5002BA7FA /* Sources */,
 				DCC18F29216139B5002BA7FA /* Frameworks */,
 				DCC18F2A216139B5002BA7FA /* Resources */,
+				AC7787A8F5C0E5C47D920EB8 /* [CP] Embed Pods Frameworks */,
+				B9CAB0500E49F211CF3EC381 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC18F4221613C01002BA7FA /* credentials (2).plist in Resources */,
 				DCC18F3A216139B5002BA7FA /* LaunchScreen.storyboard in Resources */,
 				DCC18F37216139B5002BA7FA /* Assets.xcassets in Resources */,
 				DCC18F35216139B5002BA7FA /* Main.storyboard in Resources */,
@@ -130,6 +161,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC7787A8F5C0E5C47D920EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CAB0500E49F211CF3EC381 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSign-Swift-Tutorial/Pods-GoogleSign-Swift-Tutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28E7B4C043A7EB55A991331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleSign-Swift-Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCC18F28216139B5002BA7FA /* Sources */ = {
@@ -272,6 +364,7 @@
 		};
 		DCC18F3F216139B5002BA7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E170D9E4C5549419CB3579 /* Pods-GoogleSign-Swift-Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +379,7 @@
 		};
 		DCC18F40216139B5002BA7FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C2DE52AD31977711B9B4C8 /* Pods-GoogleSign-Swift-Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
